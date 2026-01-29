@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Facebook Login Page',
+      title: 'Facebook Login Page Ui',
       theme: ThemeData(
         // This is the theme of your application.
         //

@@ -24,7 +24,13 @@ class FacebookUI extends StatelessWidget {
         child: Column(
           children: [
             Image.asset("assets/images/facebook-logo.png",width: 200,),
-            TextField(),
+            TextField(
+
+            decoration: InputDecoration(
+              hintText: "Mobile number or email address",
+              border: OutlineInputBorder(borderSide: BorderSide(width: 2))
+            )
+            ),
             TextField(),
             ElevatedButton(onPressed: () {}, child: Text("Log in")),
             Text("Forget Password?"),

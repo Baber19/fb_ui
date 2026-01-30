@@ -21,7 +21,7 @@ class FacebookUI extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Image.asset("name"),
+          Image.asset("assets/images/facebook-logo-official.jpg"),
           TextField(),
           TextField(),
           ElevatedButton(onPressed: () {}, child: Text("Log in")),

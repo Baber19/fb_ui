@@ -20,15 +20,17 @@ class FacebookUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.only(top: 100.0,right: 11,left: 11),
+        padding: const EdgeInsets.only(top: 100.0,right: 80,left: 60),
         child: Column(
           children: [
             Image.asset("assets/images/facebook-logo.png",width: 200,),
             TextField(
 
             decoration: InputDecoration(
-              hintText: "Mobile number or email address",
-              border: OutlineInputBorder(borderSide: BorderSide(width: 2))
+              hintText: "Mobile number or email address", hintStyle: TextStyle(
+              color: Colors.grey
+            ),
+              //border: OutlineInputBorder(borderSide: BorderSide(width: 2))
             )
             ),
             TextField(),

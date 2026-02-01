@@ -35,7 +35,7 @@ class FacebookUI extends StatelessWidget {
             TextField(),
             ElevatedButton(onPressed: () {}, child: Text("Log in")),
             Text("Forget Password?"),
-            Row(children: [Container(), Text("or"), Container()]),
+            Row(children: [Container(), Text("Or"), Container()]),
             ElevatedButton(onPressed: () {}, child: Text("Create New Account")),
           ],
         ),

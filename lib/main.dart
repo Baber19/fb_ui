@@ -25,7 +25,6 @@ class FacebookUI extends StatelessWidget {
           children: [
             Image.asset("assets/images/facebook-logo.png",width: 200,),
             TextField(
-
             decoration: InputDecoration(
               hintText: "Mobile number or email address", hintStyle: TextStyle(
               color: Colors.grey
